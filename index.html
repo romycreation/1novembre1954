@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#06130f">
+  <meta name="description" content="Une expérience commémorative bilingue dédiée au 1er Novembre 1954 et aux martyrs de la Révolution algérienne.">
+  <title>1er Novembre 1954 — ذاكرة خالدة</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cormorant+Garamond:wght@400;500;600&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#memoire">Aller au contenu</a>
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" aria-label="Navigation principale">
+    <a class="brand" href="#accueil" aria-label="Retour à l’accueil">
+      <span class="brand-mark" aria-hidden="true">★</span>
+      <span class="brand-copy"><b>01·11·1954</b><small>ذاكرة وطن</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Sections">
+      <a href="#memoire">Mémoire</a><a href="#raie">La Raïa</a><a href="#hommage">Hommage</a>
+    </nav>
+    <button class="sound-toggle" type="button" aria-pressed="false" aria-label="Activer l’ambiance sonore">
+      <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span class="sound-label">Son</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section-dark" id="accueil" aria-labelledby="hero-title">
+      <canvas id="particles" aria-hidden="true"></canvas>
+      <div class="hero-radial" aria-hidden="true"></div>
+      <div class="floating-flags" aria-hidden="true">
+        <div class="mini-flag flag-one"><span></span><i></i><b>★</b></div>
+        <div class="mini-flag flag-two"><span></span><i></i><b>★</b></div>
+        <div class="mini-flag flag-three"><span></span><i></i><b>★</b></div>
+      </div>
+      <div class="hero-content">
+        <p class="eyebrow reveal-load"><span></span>ذكرى اندلاع الثورة التحريرية الجزائرية</p>
+        <h1 id="hero-title" class="reveal-load"><span>1<sup>er</sup> NOVEMBRE</span><strong>1954</strong></h1>
+        <p class="hero-arabic reveal-load" lang="ar" dir="rtl">المجد والخلود لشهدائنا الأبرار</p>
+        <p class="hero-whisper reveal-load">Une mémoire éternelle <i></i> <span lang="ar" dir="rtl">ذاكرة خالدة</span></p>
+        <a class="discover reveal-load" href="#memoire"><span>Découvrir notre mémoire</span><i aria-hidden="true">↓</i></a>
+      </div>
+      <div class="scroll-cue" aria-hidden="true"><span>Défiler</span><i></i></div>
+      <div class="hero-number" aria-hidden="true">01</div>
+    </section>
+
+    <!-- MEMORY -->
+    <section class="memory section-dark" id="memoire" aria-labelledby="memory-title">
+      <div class="section-index" aria-hidden="true"><span>01</span><i></i><small>روح نوفمبر</small></div>
+      <div class="memory-glow" aria-hidden="true"></div>
+      <div class="memory-content">
+        <p class="kicker reveal">L’ÂME ALGÉRIENNE</p>
+        <h2 id="memory-title" class="reveal">Un peuple.<br>Une mémoire.<br><em>Une liberté.</em></h2>
+        <p class="memory-arabic reveal" lang="ar" dir="rtl">شعبٌ واحد، ذاكرةٌ واحدة،<br>وحريةٌ لا تزول.</p>
+      </div>
+      <blockquote class="side-note reveal"><span>«</span>Notre histoire n’est pas derrière nous.<br>Elle vit dans ce que nous choisissons de devenir.</blockquote>
+    </section>
+
+    <!-- FLAG -->
+    <section class="flag-stage" id="raie" aria-labelledby="flag-title">
+      <div class="section-index light-index" aria-hidden="true"><span>02</span><i></i><small>راية الوطن</small></div>
+      <div class="flag-copy reveal">
+        <p class="kicker">SOUS UNE MÊME RAÏA</p>
+        <h2 id="flag-title">Un symbole.<br><em>Une promesse.</em></h2>
+        <p lang="ar" dir="rtl">في ظل راية واحدة، ينبض وطن بأكمله.</p>
+      </div>
+      <div class="flag-monument reveal" aria-label="Drapeau algérien stylisé flottant">
+        <div class="flag-pole" aria-hidden="true"><i></i></div>
+        <div class="flag-fabric" aria-hidden="true">
+          <div class="flag-half green"></div><div class="flag-half ivory"></div>
+          <div class="emblem"><span class="crescent"></span><b>★</b></div>
+          <div class="fabric-light"></div>
+          <div class="fabric-lines"></div>
+        </div>
+      </div>
+      <div class="flag-legend reveal" aria-hidden="true">
+        <span><i class="dot green-dot"></i>Espoir</span><span><i class="dot ivory-dot"></i>Paix</span><span><i class="dot red-dot"></i>Sacrifice</span>
+      </div>
+    </section>
+
+    <!-- TRIBUTE -->
+    <section class="tribute section-dark" id="hommage" aria-labelledby="tribute-title">
+      <div class="tribute-flag" aria-hidden="true"></div>
+      <div class="section-index" aria-hidden="true"><span>03</span><i></i><small>تحية إجلال</small></div>
+      <div class="tribute-content">
+        <div class="martyr-light reveal" aria-hidden="true"><i></i></div>
+        <p class="kicker reveal">HOMMAGE</p>
+        <h2 id="tribute-title" class="reveal">À ceux qui ont rêvé<br>d’une Algérie <em>libre.</em></h2>
+        <p class="tribute-arabic reveal" lang="ar" dir="rtl">إلى الذين حلموا بالجزائر حرة أبية.</p>
+        <div class="tribute-rule reveal"><span></span><b>1 500 000</b><span></span></div>
+        <p class="martyrs reveal">DE NOS MARTYRS · من شهدائنا الأبرار</p>
+      </div>
+    </section>
+
+    <!-- FINALE -->
+    <section class="finale section-dark" id="finale" aria-labelledby="finale-title">
+      <div class="finale-light" aria-hidden="true"></div>
+      <div class="finale-emblem" aria-hidden="true"><span class="crescent"></span><b>★</b></div>
+      <div class="finale-content">
+        <p class="kicker reveal">NOTRE HISTOIRE · NOTRE FIERTÉ · NOTRE ALGÉRIE</p>
+        <h2 id="finale-title" class="reveal">VIVE<br><em>L’ALGÉRIE</em></h2>
+        <p class="finale-fr reveal">Toujours libre, toujours debout.</p>
+        <p class="finale-ar reveal" lang="ar" dir="rtl">تحيا الجزائر، حرة أبية إلى الأبد.</p>
+      </div>
+      <footer>
+        <p>01 NOVEMBRE 1954</p><span aria-hidden="true">⟡</span><p lang="ar" dir="rtl">المجد والخلود لشهدائنا الأبرار</p>
+      </footer>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
